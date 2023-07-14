@@ -1,4 +1,4 @@
-# Exam Marks Calculator
+# CUET PG Marks Calculator
 
 This is a Python script that calculates exam marks based on the provided answer key and the user's chosen options. It also generates an overall performance report.
 
