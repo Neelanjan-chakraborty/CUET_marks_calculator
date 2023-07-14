@@ -1,0 +1,157 @@
+body {
+  background: #ffffffe8 url(img.webp) repeat;
+  background-blend-mode: hard-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.card {
+  background: #e0e7ff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 9px rgb(0 0 0 / 42%);
+  display: flex;
+  width: 1200px;
+  height:550px;
+  max-width: 1200px;
+  margin: 20px;
+  overflow: auto;
+}
+
+.left-side {
+  padding: 10px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  height:100%;
+
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+
+h1, p {
+  margin: 0;
+  
+}
+
+h1 {
+  color: #6366f2;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  color: #6366f2;
+  margin-bottom: 10px;
+  font-size:14px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #e0e7ff;
+  color: #6366f2;
+  text-decoration: none;
+}
+.instructions {
+  /* Add any other styles for the instructions section */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.image-container {
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+.instructions {
+  font-family: 'Montserrat', sans-serif;
+  color: #6366f2;
+  margin:20px;
+  margin-bottom: 20px;
+  font-size:14px;
+  aling:centre;
+  justify-content:center;
+}
+
+.instructions ol {
+  padding-left: 20px;
+}
+
+.instructions .image-container {
+  margin-top: 10px;
+}
+
+.instructions .image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.iframe-container {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 550px;
+  border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left-side, .right-side {
+    flex: 1;
+  }
+
+  .right-side {
+    height: 100%;
+  }
+  iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+}
