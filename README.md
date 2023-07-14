@@ -2,6 +2,9 @@
 
 This is a Python script that calculates exam marks based on the provided answer key and the user's chosen options. It also generates an overall performance report.
 
+access the tool here
+[Tool Link](https://neelanjan-chakraborty.github.io/CUET_marks_calculator/)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
