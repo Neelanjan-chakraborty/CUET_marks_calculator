@@ -21,11 +21,7 @@ You can install these dependencies using the following command:
 
 ```shell
 pip install -r requirements.txt
-Usage
-python
-Copy code
-import requests
-from bs4 import BeautifulSoup
+import requests from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
 ```
