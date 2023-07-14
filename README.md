@@ -11,11 +11,11 @@ access the tool here
 
 2. Login and copy the Answer Key from the Challenges Page as shown in the example below:
 
-   ![Copy Answer Key]([https://example.com/copy_answer_key.gif](https://i.imgur.com/9dzYJZ1.gif])
+   ![Copy Answer Key](https://example.com/copy_answer_key.gif](https://i.imgur.com/9dzYJZ1.gif)
 
 3. Open your Attempted questions and copy the link as shown in the example below:
 
-   ![Copy Question Link]([https://example.com/copy_question_link.png](https://i.ibb.co/FVwGm6L/Screenshot-179.png])
+   ![Copy Question Link](https://example.com/copy_question_link.png](https://i.ibb.co/FVwGm6L/Screenshot-179.png)
 
 4. Paste both the Answer Key and the Question Link in the appropriate placeholders.
 
